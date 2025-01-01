@@ -1,13 +1,13 @@
-import React from 'react'
-import {BroswerRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom"
+import React from 'react'  
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Footer from './components/Footer'
 
 const App = () => {
   return (
     <Router>
-        {/* <Routes>
+        <Routes>
             <Route path='' />
-        </Routes> */}
+        </Routes>
         <Footer />
     </Router>
   )
