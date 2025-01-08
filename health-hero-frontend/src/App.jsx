@@ -9,6 +9,8 @@ import ConsultationForm from './components/ConsultationForm'
 import AppointmentBooking from './components/AppointmentBooking'
 import ForgotPassword from './components/ForgotPassword'
 import NotFound from './components/NotFound'
+import ContactPage from './components/ContactPage'
+import AboutUs from './components/AboutUs'
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
             <Route path="/book-consultation" element={<ConsultationForm />} />
             <Route path="/book-appointment" element={<AppointmentBooking />} />
             <Route path="/forgot" element={<ForgotPassword />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about" element={<AboutUs />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
