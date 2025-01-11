@@ -1,4 +1,5 @@
 import React from "react";
+import { Link }  from "react-router-dom"
 
 const AboutUs = () => {
   return (
@@ -99,12 +100,12 @@ const AboutUs = () => {
           <p className="text-gray-600 mb-6">
             Ready to experience the future of healthcare? Let’s work together to make it happen.
           </p>
-          <a
-            href="/contact"
+          <Link 
+            to="/contact" 
             className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-200"
-          >
+          > 
             Contact Us
-          </a>
+          </Link>
         </section>
       </div>
     </div>
